@@ -1,0 +1,6 @@
+bin/
+bin-debug/
+bin-release/
+Build/
+Index/
+.DS_Store
