@@ -20,7 +20,6 @@ static NSCursor *nativeCurrentCursor = NULL;
 
 - (instancetype)init{
 	if(self  == [super init]){
-		self.debugStr = @"";
 		self.isSupport = false;
 		self.customCursorMap = [[NSMutableDictionary alloc] init];
 		nativeCurrentCursor = NULL;

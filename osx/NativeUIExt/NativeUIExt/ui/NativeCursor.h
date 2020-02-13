@@ -33,7 +33,6 @@ static NSString *const IBEAM_CURSOR_FOR_VERTICAL_LAYOUT_CURSOR = @"IBeamCursorFo
 
 @interface NativeCursor : NSObject
 @property bool isSupport;
-@property NSString *debugStr;
 - (void)setCursor:(NSString *)cursorType;
 - (void)registerCursor:(NSString *)name image:(NSImage*)image image2x:(NSImage*)image2x hotSpot:(NSPoint)hotSpot;
 - (void)unregisterCursor:(NSString *)name;
